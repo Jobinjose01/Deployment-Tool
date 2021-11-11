@@ -2,8 +2,8 @@
     "apps":[
 
      {
-        "name" : "Numr Web",
-        "appcode" : "numrweb",
+        "name" : "App1",
+        "appcode" : "app1",
         "username" : "sds",
         "ipaddress" : "dsds",
         "pemfile" : "myserver.pem",
@@ -11,8 +11,8 @@
        
     },
     {
-        "name" : "Numr Desktop",
-        "appcode" : "numrdotnet",
+        "name" : "App2",
+        "appcode" : "app2",
         "username" : "",
         "ipaddress" : "",
         "pemfile" : "",
@@ -21,8 +21,8 @@
     },
     {
         
-        "name" : "Numr TiaImage",
-        "appcode" : "numrtiaimage",
+        "name" : "App3",
+        "appcode" : "app3",
         "username" : "",
         "ipaddress" : "",
         "pemfile" : "",
@@ -30,8 +30,8 @@
        
     },
     {
-        "name" : "Asset",
-        "appcode" : "aaset",
+        "name" : "App4",
+        "appcode" : "app4",
         "username" : "",
         "ipaddress" : "",
         "pemfile" : "",
@@ -39,8 +39,8 @@
        
     },
     {
-        "name" : "Tele",
-        "appcode" : "tele",
+        "name" : "App5",
+        "appcode" : "app5",
         "username" : "",
         "ipaddress" : "",
         "pemfile" : "",
@@ -49,8 +49,8 @@
     },
     {
         
-        "name" : "Finance",
-        "appcode" : "finapp",
+        "name" : "App6",
+        "appcode" : "app6",
         "username" : "",
         "ipaddress" : "",
         "pemfile" : "",

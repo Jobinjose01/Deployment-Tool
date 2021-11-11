@@ -135,7 +135,7 @@ func parseConfigFile() Config {
 
 }
 
-func getPHPWebShellScript() string {
+func getApp1ShellScript() string {
 
 	return `
 	cd /home/admin/web/public_html
@@ -143,7 +143,7 @@ func getPHPWebShellScript() string {
 	`
 }
 
-func getDotNetShellScript() string {
+func getApp2ShellScript() string {
 
 	return `
 	cd /home/admin/web/public_html
@@ -151,7 +151,7 @@ func getDotNetShellScript() string {
 	`
 }
 
-func getTiaImageShellScript() string {
+func getApp3ShellScript() string {
 
 	return `
 	cd /home/admin/web/public_html
@@ -159,7 +159,7 @@ func getTiaImageShellScript() string {
 	`
 }
 
-func getAssetShellScript() string {
+func getApp4ShellScript() string {
 
 	return `
 	cd /home/admin/web/public_html
@@ -167,7 +167,7 @@ func getAssetShellScript() string {
 	`
 }
 
-func getTeleShellScript() string {
+func getApp5ShellScript() string {
 
 	return `
 	cd /home/admin/web/public_html
@@ -175,7 +175,7 @@ func getTeleShellScript() string {
 	`
 }
 
-func getFinAppShellScript() string {
+func getApp6ShellScript() string {
 
 	return `
 	cd /home/admin/web/public_html
@@ -187,27 +187,27 @@ func Executeshell(app_selected string, passcode string) string {
 
 	var script string
 
-	if app_selected == "numrweb" {
-		script = getPHPWebShellScript()
+	if app_selected == "app1" {
+		script = getApp1ShellScript()
 	}
 
-	if app_selected == "numrdotnet" {
-		script = getDotNetShellScript()
+	if app_selected == "app2" {
+		script = getApp2ShellScript()
 	}
 
-	if app_selected == "numrtiaimage" {
-		script = getTiaImageShellScript()
+	if app_selected == "app3" {
+		script = getApp3ShellScript()
 	}
 
-	if app_selected == "aaset" {
-		script = getAssetShellScript()
+	if app_selected == "app4" {
+		script = getApp4ShellScript()
 	}
 
-	if app_selected == "tele" {
-		script = getTeleShellScript()
+	if app_selected == "app5" {
+		script = getApp5ShellScript()
 	}
-	if app_selected == "finapp" {
-		script = getFinAppShellScript()
+	if app_selected == "app6" {
+		script = getApp6ShellScript()
 	}
 	var config Apps
 	json.Unmarshal([]byte(appcreds[app_selected]), &config)
