@@ -40,7 +40,7 @@ func main() {
 	os.Setenv("FYNE_THEME", "light")
 
 	a := app.New()
-	win := a.NewWindow("TiaTech Application Deployment Tool [Version 1.2.0]")
+	win := a.NewWindow("Application Deployment Tool [Version 1.2.0]")
 	win.Resize(fyne.NewSize(800, 400))
 	win.CenterOnScreen()
 	apps := parseConfigFile()
