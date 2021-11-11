@@ -1,0 +1,62 @@
+{
+    "apps":[
+
+     {
+        "name" : "Numr Web",
+        "appcode" : "numrweb",
+        "username" : "sds",
+        "ipaddress" : "dsds",
+        "pemfile" : "myserver.pem",
+        "passcode" : "2433f3c7817f37d3aece2a692666bb765bfe6b42e2a8721beb6b55cdf1697ec43857"
+       
+    },
+    {
+        "name" : "Numr Desktop",
+        "appcode" : "numrdotnet",
+        "username" : "",
+        "ipaddress" : "",
+        "pemfile" : "",
+        "passcode" : "bfe67d230ea4907fbbc2eecf61463a8bb698c5851af9005572eba0ad3492a3d8ac36"
+       
+    },
+    {
+        
+        "name" : "Numr TiaImage",
+        "appcode" : "numrtiaimage",
+        "username" : "",
+        "ipaddress" : "",
+        "pemfile" : "",
+        "passcode" : ""
+       
+    },
+    {
+        "name" : "Asset",
+        "appcode" : "aaset",
+        "username" : "",
+        "ipaddress" : "",
+        "pemfile" : "",
+        "passcode" : ""
+       
+    },
+    {
+        "name" : "Tele",
+        "appcode" : "tele",
+        "username" : "",
+        "ipaddress" : "",
+        "pemfile" : "",
+        "passcode" : ""
+       
+    },
+    {
+        
+        "name" : "Finance",
+        "appcode" : "finapp",
+        "username" : "",
+        "ipaddress" : "",
+        "pemfile" : "",
+        "passcode" : ""
+       
+    }
+
+]
+}

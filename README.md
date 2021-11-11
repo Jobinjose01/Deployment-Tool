@@ -1,7 +1,7 @@
 # Deployment-Tool
-A Go based deployment tool that allows the users to deploy the web application on the server using SSH information and pem file. 
-This application is intended for non tecnhincal users they can just open the GUI and give the server details just deploy.
-This application expect the `myserver.pem` file on the root folder of the project.
+A [Go](https://golang.org/dl/) based deployment tool that allows the users to deploy the web application on the server using SSH information and pem file. 
+This application is intended for non tecnhincal users they can just open the GUI and choose the server just deploy.
+This application expect the pem files and `config.json` file on the root folder of the project. In the `config.json` file have all the username IP and pem file path of the server.
 
 ## Dependencies
 This application uses the [Fyne](https://developer.fyne.io/started/) package for build the GUI , make sure all the requirement for fyne are installed based on your platform.
